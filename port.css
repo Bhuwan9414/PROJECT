@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(25, 17, 55);
+ 
+}
+
+@keyframes bhuwan{
+    from {background-color: rgb(159, 97, 32);}
+    25%{background-color: rgb(17, 81, 30);}
+    75%{background-color: rgb(12, 67, 52);}
+    to{background-color: darkslateblue;}
+}
+
+#main #page1{
+    height: 200px; 
+    width: 700px;
+    padding: 30px;
+    border: 3px solid rgb(211, 211, 45);
+    background-color: rgb(13, 28, 41);
+    margin-top: 70px;
+    margin-left: 58px; 
+    animation-duration: 10s;   
+    animation-name: bhuwan;
+    animation animation-iteration-count: infinite;
+    animation-fill-mode:alternate;
+    overflow: hidden;
+}
+
+#page1 p{
+     color: rgb(63, 192, 123);
+     font-family: 'Quicksand', sans-serif;
+     display: flex;
+}
+
+#page1 h1{
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(38, 209, 218);
+    display: flex;
+}
+
+#page1 h4{
+    color: rgb(186, 118, 176);
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    margin-top: 5px;
+}
+
+#links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+#links a{
+    background-color: rgba(126, 165, 199, 0);
+    text-decoration: none;
+    font-size: 30px;
+    margin-top: 50px;
+  
+    
+}
+
+#links a i{
+    color: rgb(253, 253, 253);
+    transition: all 0.5s;
+    border-radius: 100%;
+    margin-bottom: 15px;
+
+    
+}
+#links a i:hover{
+
+    border: 2px solid black;
+    border-radius: 100%;
+    margin: 0px 30px;
+    font-size: 40px;
+    background-color: rgba(240, 248, 255, 0);
+}
